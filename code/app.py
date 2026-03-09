@@ -6,7 +6,7 @@ import numpy as np
 import altair as alt
 
 from pathlib import Path
-from shapely import wkt
+# from shapely import wkt
 
 script_dir = Path(__file__).parent
 
