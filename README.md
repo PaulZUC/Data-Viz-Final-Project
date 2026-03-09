@@ -1,4 +1,4 @@
-# Fire Perimeter Analysis
+# Homelessness & Poverty Analysis
 
 This project processes and visualizes variables that are related to poverty and homelessness
 
