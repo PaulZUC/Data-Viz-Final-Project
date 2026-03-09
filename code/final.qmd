@@ -1,0 +1,54 @@
+---
+title: "Exploration of Homelessness in the United States: A Data-Driven Analysis"
+author: "Paul Zee-Cheng"
+format:
+  pdf:
+    include-in-header:
+      text: |
+        % Enable wrapping for Pandoc code blocks in PDF
+        \usepackage{fvextra}
+        \usepackage{float}
+        \usepackage{makecell}
+        \usepackage{booktabs}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+editor: source
+execute-dir: project
+execute: 
+    echo: true
+---
+
+Group Section 1.
+Github User Name PaulZUC.
+
+The following visualiztions and analyses explore the issue of homelessness in the United States, utilizing data from the ASC, PIT Counts, the Urban Institute's Mobility Initiative, and the Census Opportunity Atlasto provide insights into the demographics, trends, and factors contributing to homelessness. The goal is to identify patterns and inform potential policy interventions to address this critical social issue.
+
+For further explanation of the data, please see presentation slide deck in this same folder.
+
+\begin{figure}[hbt!]
+  \includegraphics[width=\linewidth]{mobility_hist.png}
+  \caption{Cost of Living changes by county, over 10 years.}
+  \label{fig:mobility}
+\end{figure}
+Figure \ref{fig:mobility} shows the trends in living standards over time.
+
+
+\begin{figure}[hbt!]
+  \includegraphics[width=\linewidth]{mobility_scatter.png}
+  \caption{Adult earnings of children who's parents were in the top 75th percentil of income, versus change in living standards of county of children during development.}
+  \label{fig:scatter}
+\end{figure}
+Figure \ref{fig:scatter} shows the trends in living standards over time.
+
+\begin{figure}[hbt!]
+  \includegraphics[width=\linewidth]{mobility_regression.png}
+  \caption{Adult earnings of children who's versus change in living standards of county of children during development, separated by income quartile earnings of parents, for 75th, 50th, and 25th quartile.}
+  \label{fig:regression}
+\end{figure}
+Figure \ref{fig:regression} shows the trends in living standards over time.
+
+\begin{figure}[hbt!]
+  \includegraphics[width=\linewidth]{streamlit_local_sample.png}
+  \caption{Sample of locally deployed streamlit app, saved as app.py, tracking relationship between homelessnes, unemployment, and government assistance for all states over a 10 year period.}
+  \label{fig:streamlit}
+\end{figure}
+Figure \ref{fig:streamlit} shows relationship between homelessness, unemployment, and government assistance for all states over a 10 year period, as visualized in a locally deployed streamlit app.
