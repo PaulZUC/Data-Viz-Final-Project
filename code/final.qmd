@@ -22,6 +22,16 @@ Github User Name PaulZUC.
 
 The following visualiztions and analyses explore the issue of homelessness in the United States, utilizing data from the ASC, PIT Counts, the Urban Institute's Mobility Initiative, and the Census Opportunity Atlasto provide insights into the demographics, trends, and factors contributing to homelessness. The goal is to identify patterns and inform potential policy interventions to address this critical social issue.
 
+This exploration faced many difficult issues, not the least of which was lack of longitudinal data to explore what is essentiall a longitudinal analysis of poverty.
+
+The motivating question was inspired by a discusion of the "Kill Line" which is itself the idea that there exists an economic "point of no return" for American workers, where an economic shock or hardship will reduce them to a point of poverty that they cannot recover from.
+
+To this end, after initial exploration, an as-yet-unpublished working paper from Bruce Meyers et al, "Homelessness and the Persistence of Deprivation: Income, Employment, and Safety Net Participation " indicates that this is not the case.
+
+Rather, this paper demonstrates through select longitudinal panel data of the same individuals over time that permanent, rather than transitional or temporary economic shocks, is the greatest indicator of homelessness. Variables such as Social Security Insurance and employment persist through homelessness. This in turn indicates that the homless population is not impoverished because of a lack of government benefits or employment, but in addition to these.
+
+The dashboard created thus attempts to explore the relationship between homelessness, unemployment, and government assistance over time, across all states, over a change of a 10 year period.
+
 For further explanation of the data, please see presentation slide deck in this same folder.
 
 \begin{figure}[hbt!]
